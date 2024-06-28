@@ -28,5 +28,6 @@ public class Man {
         System.out.println("double to byte");
         b = (byte)d;
         System.out.println("d= "+d+"a");
+        System.out.println("son ekleme");
     }
 }
