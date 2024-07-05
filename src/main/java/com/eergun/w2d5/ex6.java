@@ -20,5 +20,6 @@ public class ex6 {
 		for (int i = 0; i < length; i++) {
 			System.out.println(edge);
 		}
+		sc.close();
 	}
 }

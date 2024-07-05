@@ -11,6 +11,7 @@ public class ex1 {
 		boolean isNumber = false;
 		do {
 			try {
+				System.out.print(" irdgini sayi> " + number);
 				System.out.print("Sayig iriniz> ");
 				number = sc.nextInt();
 				isNumber = true;
