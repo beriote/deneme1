@@ -1,14 +1,10 @@
 package com.eergun.w2d5.odev;
 
-public class q1 {
+public class q2 {
 	/*
-	eşenar üçgen girdi 3 çıktı
-	  *
-	 ***
-	*****
+	ters eşknera
 	 */
 	public static void main(String[] args) {
-	
 	
 	}
 }
