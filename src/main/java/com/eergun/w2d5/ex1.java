@@ -9,22 +9,18 @@ public class ex1 {
 		
 		int number = 0, i, total = 0;
 		boolean isNumber = false;
-		do {
-			try {
-				System.out.print(" irdgini sayi> " + number);
-				System.out.print("Sayig iriniz> ");
-				number = sc.nextInt();
-				isNumber = true;
+		while (!isNumber){
+			System.out.print("Bir syai girinz> ");
+			isNumber = sc.hasNextInt();
+			if (isNumber) number = sc.nextInt();
+			else {
+				System.out.println("Deger gecersiz");
 			}
-			catch (Exception e) {
-				System.out.println("Lutfen sayi disinda bir sey girmeyiniz. ");
-			}
-		} while (!isNumber);
+		}
 		
 		for (i = 1; i <= number; i++){
 			total += i;
 		}
 		System.out.println("1'den " + number + "'e kadr olan sayıların toplamı: " + total);
-		
 	}
 }
