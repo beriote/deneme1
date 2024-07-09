@@ -1,5 +1,6 @@
 package com.eergun.w2d5.odev;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class q2 {
@@ -21,7 +22,6 @@ public class q2 {
 			}
 			System.out.println();
 		}
-		
 		sc.close();
 		
 	}
